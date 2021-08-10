@@ -1,0 +1,76 @@
+.enter-amount-container {
+  background: url("../../images/pin&amount.png") center center/cover no-repeat;
+  /*height: 145vh;*/
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: center;*/
+  position: fixed;
+  overflow: hidden;
+}
+
+.enter-amount-pic-and-text {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.enter-amount-text {
+  display: inline-block;
+  margin-left: 435px;
+}
+
+.enter-amount-cancel-pic {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 125px;
+  display: inline-block;
+}
+
+.enter-amount-text > p {
+  font-size: 30px;
+}
+
+.enter-amount-text > h1 {
+  font-size: 40px;
+}
+
+.enter-amount-input-field {
+  margin-bottom: 20px;
+}
+.enter-amount-btns-group-1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 315px;
+  margin-left: 610px;
+  margin-bottom: 20px;
+}
+
+.enter-amount-btns-group-2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 315px;
+  margin-left: 610px;
+  margin-bottom: 20px;
+}
+
+.enter-amount-btns-group-3 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 315px;
+  margin-left: 610px;
+  margin-bottom: 20px;
+}
+
+.enter-amount-btns-group-4 {
+  margin-bottom: 20px;
+}
+
+.enter-proceed-confirmation-btn {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,133 @@
+.hero-container{
+background: url('../images/1.png') 
+center center/cover no-repeat;
+background-size: 100% 100%; 
+height: 100vh;
+width: 100%;
+z-index: -1;
+box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+object-fit: contain;
+position: fixed;
+overflow: hidden;
+}
+
+.hero-items{
+    align-items: center;
+    text-align: center; 
+    position: relative;
+    left: 0;
+}
+
+.girl-1{
+    
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 240px;
+    position: absolute;
+    left: -250px;
+    z-index: 10;
+}
+
+.girl-2{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 240px;
+    position: absolute;
+    left: 270px;
+}
+
+.man{ 
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    margin-top: 100px;
+    position: relative;
+    left: 0;    
+}
+
+.hero-btns{
+    margin-top: 25px;
+}
+
+/*When screen size is in between full screen size and small screen size*/
+@media screen and (max-width: 960px) {
+    .girl-1{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        left: -160px;
+        margin-top: 200px;
+    }
+       
+    .girl-2{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        left: 210px;
+        margin-top: 200px;
+    }
+
+    .man{ 
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-top: 55px;   
+    }
+
+    .hero-btns{
+        margin-top: 35px;
+    }
+}
+
+/*display these features if the screen size is minimized*/
+@media screen and (max-width: 768px) {
+    .girl-1{
+        width: 165px;
+        height: 165px;
+        border-radius: 50%;
+        left: -100px;
+        margin-top: 40px;
+    }
+       
+    .girl-2{
+        width: 165px;
+        height: 165px;
+        border-radius: 50%;
+        left: 150px;
+        margin-top: 40px;
+    }
+
+    .man{ 
+        width: 210px;
+        height: 210px;
+        border-radius: 50%;
+        margin-top: -60px;   
+    }
+
+    .hero-btns{
+        margin-top: 35px;
+    }
+}
+
+/*When screen size is in between full screen size and small screen size*/
+@media screen and (max-width: 960px) {
+    .hero-btns .large--btn{
+        padding: 13px 28px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-btns .large--btn{
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+}
+
+

@@ -1,0 +1,25 @@
+.yes-or-no-container {
+  background: url("../../../images/requested.jpg") center center/cover no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.yes-or-no-container > p {
+  text-align: center;
+  margin: 20px;
+  color: black;
+  font-size: 40px;
+  font-family: "Trebuchet HS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.yes-or-no-btns .btn {
+  margin: 80px;
+}

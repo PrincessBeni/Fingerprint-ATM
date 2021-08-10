@@ -1,0 +1,56 @@
+.proceed-conversion-container {
+  background: url("../../../images/pin&amount.png") center center/cover
+    no-repeat;
+  /*height: 145vh;*/
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: center;*/
+  position: fixed;
+  overflow: hidden;
+}
+
+.proceed-conversion-container > h1 {
+  margin-bottom: 50px;
+}
+
+.note-and-equivalence {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.proceed-conversion-note {
+  color: rgb(255, 0, 0);
+  margin-left: 520px;
+}
+
+.proceed-conversion-equivalence {
+  margin-right: 790px;
+}
+.proceed-conversion-column-1 {
+  justify-content: space-between;
+  display: flex;
+  margin: 0px 520px;
+}
+
+.proceed-conversion-btn-1 .btn {
+  display: inline-block;
+  /* margin-bottom: 400px; */
+}
+.proceed-conversion-text {
+  /* display: inline-block; */
+  font-size: 20px;
+}
+
+.proceed-conversion-column-2 {
+  justify-content: space-between;
+  display: flex;
+  margin: 0px 520px;
+}
