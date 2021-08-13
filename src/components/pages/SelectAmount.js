@@ -44,7 +44,7 @@ import button from './Withorwithoutcard'
                         50
                     </Button>}
                 </div>
-                <div className = 'amount-btns-list-2'>
+                <div className = 'amount-btns-list-2' name = '100'>
                     {button && <Button onClick = {() =>window.location.href = '/ProceedConfirmation'}
                         className='amount-btns-list-2'
                         buttonStyle='secondary--btn'

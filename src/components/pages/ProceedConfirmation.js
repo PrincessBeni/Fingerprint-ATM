@@ -6,7 +6,7 @@ import buttonValue from './SelectAmount'
 import choice2 from './SelectAmount'
 import './SelectAmount';
 
-function ProceedConfirmation() {
+function ProceedConfirmation(props) {
 
 
     return (
@@ -20,7 +20,7 @@ function ProceedConfirmation() {
                 />
             </div>
             <br/><br/><br/> <p>You have requested to withdraw an amount of</p>
-            <div>[ {buttonValue} ]</div>
+            <div>[ {props.name} ]</div>
 
             {/*<div>{amount}</div>*/}
 
