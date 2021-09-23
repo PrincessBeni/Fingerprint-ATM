@@ -3,7 +3,7 @@ import './fingerprintRequest.css'
 
 function Loading() {
 
- {/*redirect to the select transaction pae after 1 second*/}
+ {/*redirect to the select transaction page after 1 second*/}
  setTimeout(
     function() {
         window.location.replace('/Fingerprintmismatched');

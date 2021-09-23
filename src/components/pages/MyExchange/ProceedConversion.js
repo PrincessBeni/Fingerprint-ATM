@@ -14,24 +14,36 @@ function ProceedConversion() {
 
             <div className = "proceed-conversion-column-1">
                 <p className = "proceed-conversion-text"> You have inserted:</p>
+                <div className = "proceed-conversion-btn-1">
                 {button && <Button
                     className = 'proceed-conversion-btn-1'
                     buttonStyle ='secondary-btn-with-black-border'
                     buttonSize='small-btn-with-shadow-2'>
                     Place Holder (the currency inserted)
                 </Button>}
+                </div>
             </div>
 
             <div className = "proceed-conversion-column-2">
                 <p className = "proceed-conversion-text">You would recieve:</p>
+                <div className = "proceed-conversion-btn-1">
                 {button && <Button
                     className='proceed-conversion-btn-1'
                     buttonStyle='secondary-btn-with-black-border'
                     buttonSize='small-btn-with-shadow-2'>
                     Place Holder (in GHS)
                 </Button>}
+                </div>
             </div>
-            
+
+            <div className = 'proceed-conversion-proceed-btn'>
+                {button && <Button onClick = {() => window.location.href = '/ReceiptRequest'}
+                    className='proceed-conversion-proceed-btn'
+                    buttonStyle='primary--btn'
+                    buttonSize='stylished-small-btn'>
+                    Proceed
+                </Button>}
+            </div>
             
         </div>
     )

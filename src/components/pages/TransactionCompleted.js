@@ -11,7 +11,7 @@ function TransactionCompleted() {
                             height = "500"
                             alt='men shaing hands' 
                             className='shaking-hands-pic'/>
-            
+                            
         </div>
     )
 }

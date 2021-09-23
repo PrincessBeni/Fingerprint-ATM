@@ -13,7 +13,7 @@ function WelcomePage() {
                 <div className = 'welcome-page-btns-list-1'>
                     {button && <Button onClick = {() => window.location.href = '/InsertMoney'}
                         className='welcome-page-btns-list-1'
-                        buttonStyle='secondary--btn'
+                        buttonStyle='secondary-btn-with-black-border'
                         buttonSize='large--btn'>
                         $
                     </Button>}
@@ -21,9 +21,9 @@ function WelcomePage() {
                 <div className = 'welcome-page-btns-list-2'>
                     {button && <Button onClick = {() => window.location.href = '/InsertMoney'}
                         className='welcome-page-btns-list-2'
-                        buttonStyle='secondary--btn'
+                        buttonStyle='secondary-btn-with-black-border'
                         buttonSize='large--btn'>
-                        POUNDS
+                        £
                     </Button>}
                 </div>
             </div>
@@ -32,15 +32,15 @@ function WelcomePage() {
                 <div className = 'welcome-page-btns-list-1'>
                     {button && <Button onClick = {() => window.location.href = '/InsertMoney'}
                         className='twelcome-page-btns-list-1'
-                        buttonStyle='secondary--btn'
+                        buttonStyle='secondary-btn-with-black-border'
                         buttonSize='large--btn'>
-                        EUROS
+                        €
                     </Button>}
                 </div>
                 <div className = 'welcome-page-btns-list-2'>
                     {button && <Button onClick = {() => window.location.href = '/InsertMoney'}
                         className='welcome-page-btns-list-2'
-                        buttonStyle='secondary--btn'
+                        buttonStyle='secondary-btn-with-black-border'
                         buttonSize='large--btn'>
                         CFA
                     </Button>}

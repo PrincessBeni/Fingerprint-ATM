@@ -12,20 +12,20 @@
 
 /*colors-styles*/
 .primary--btn {
-  background-color: #ff9a00;
+  background-color: #ffa826;
   color: black;
   box-shadow: inset 1px 1px 2px 2px rgb(216, 216, 216);
 }
 
 .secondary--btn {
-  background-color: #faa723;
+  background-color: #fcb441;
   color: black;
   border: 1px solid var(--primary);
   transition: all 0.3s ease-in-out;
 }
 
 .secondary-btn-with-black-border {
-  background-color: #faa723;
+  background-color: #fcb441;
   color: black;
   transition: all 0.3s ease-in-out;
   box-shadow: inset 2px 2px 7px -4px black;
@@ -109,7 +109,7 @@
 .stylished-large-btn:hover,
 .stylished-small-btn:hover,
 .round-btn:hover {
-  background: #fff;
+  background: #ff9a00;
   color: black;
   transition: all 0.3s ease-in-out;
 }

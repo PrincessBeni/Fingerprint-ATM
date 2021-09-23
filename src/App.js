@@ -32,6 +32,12 @@ import ConfirmTransfer from './components/pages/transfer/ConfirmTransfer';
 import WelcomePage from './components/pages/MyExchange/WelcomePage';
 import InsertMoney from './components/pages/MyExchange/InsertMoney';
 import ProceedConversion from './components/pages/MyExchange/ProceedConversion';
+import ProcessingTransaction from './components/pages/MyExchange/ProcessingTransaction';
+import ReceiptRequest from './components/pages/MyExchange/ReceiptRequest';
+import TransactionSuccessful from './components/pages/MyExchange/TransactionSuccessful';
+import TakeReceipt from './components/pages/MyExchange/TakeReceipt';
+import NoProcessingTransaction from './components/pages/MyExchange/NoProcessingTransaction';
+import NoTransactionSuccessful from './components/pages/MyExchange/NoTransactionSuccessful';
 
 
 function App () {
@@ -70,6 +76,12 @@ function App () {
           <Route path = '/WelcomePage' exact component = {WelcomePage}/>
           <Route path = '/InsertMoney' exact component = {InsertMoney}/>
           <Route path = '/ProceedConversion' exact component = {ProceedConversion}/>
+          <Route path = '/ProcessingTransaction' exact component = {ProcessingTransaction}/>
+          <Route path = '/ReceiptRequest' exact component = {ReceiptRequest}/>
+          <Route path = '/TransactionSuccessful' exact component = {TransactionSuccessful}/>
+          <Route path = '/TakeReceipt' exact component = {TakeReceipt}/>
+          <Route path = '/NoProcessingTransaction' exact component = {NoProcessingTransaction}/>
+          <Route path = '/NoTransactionSuccessful' exact component = {NoTransactionSuccessful}/>
         </Switch>
       </Router>
     </>
