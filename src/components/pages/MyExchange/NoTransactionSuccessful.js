@@ -4,11 +4,11 @@ import './TransactionSuccessful.css'
 function NoTransactionSuccessful() {
 
     
-    {/*redirect to the select transaction page after 1 second*/}
+    {/*redirect to the TransactionCompleted page after 1 second*/}
  setTimeout(
     function() {
         window.location.replace('/TransactionCompleted');
-    }, 4000
+    }, 3000
 );
 
     return (

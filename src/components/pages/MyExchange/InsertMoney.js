@@ -13,7 +13,7 @@ function InsertMoney() {
             <h1>Welcome to your currency exchange</h1>
             <p>Kindly insert the money you wish to exchange into the ATM machine</p>
             <img src = "insertingMoney.jpg"
-            onClick = {() => window.location = '/ProceedConversion'}
+            onClick = {() => window.location.href = '/ProceedConversion'}
             alt = "Insert cash into ATM machine"
             width = "800px"
             height = "400px"

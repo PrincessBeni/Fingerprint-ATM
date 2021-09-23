@@ -3,11 +3,11 @@ import './ProcessingTransaction.css'
 
 function ProcessingTransaction() {
 
-    {/*redirect to the TrannsactionSuccessful page after 1 second*/}
+    {/*redirect to the TrannsactionSuccessful page after 3 second*/}
  setTimeout(
     function() {
         window.location.replace('/TransactionSuccessful');
-    }, 4000
+    }, 3000
 );
 
     return (

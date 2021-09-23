@@ -9,7 +9,7 @@ function ReceiptRequest() {
         <div className = 'yes-or-no-container'>
             <p>Do you want a receipt for this transaction?</p>
             <div className='yes-or-no-btns'>
-                        {button && <Button onClick={() =>  window.location='/ProcessingTransaction'} 
+                        {button && <Button onClick={() => window.location.href='/ProcessingTransaction'} 
                             className='yes-or-no-btn-1'
                             buttonStyle='primary--btn'
                             buttonSize='large--btn'>
@@ -18,7 +18,7 @@ function ReceiptRequest() {
                         }
         
                         {button && <Button 
-                            onClick = {() =>  window.location='/NoProcessingTransaction'}
+                            onClick = {() =>  window.location.href='/NoProcessingTransaction'}
                             className='yes-or-no-btn-2' 
                             buttonStyle='primary--btn' 
                             buttonSize='large--btn'> 
