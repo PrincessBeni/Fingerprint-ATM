@@ -20,7 +20,7 @@ function WithcardSelectAmount() {
             {/*column 1*/}
             <div className = 'select-amount-btns-1'>
                 <div className = 'amount-btns-list-1'>
-                    {button && <Button onClick = {() => window.location.href = '/ApproveTransactionChoice'}
+                    {button && <Button onClick = {() => window.location = '/ApproveTransactionChoice'}
                         className='amount-btns-list-1'
                         buttonStyle='secondary--btn'
                         buttonSize='stylished-medium-btn'   
@@ -29,7 +29,7 @@ function WithcardSelectAmount() {
                     </Button>}
                 </div>
                 <div className = 'amount-btns-list-2'>
-                    {button && <Button onClick = {() => window.location.href = '/ApproveTransactionChoice'}
+                    {button && <Button onClick = {() => window.location = '/ApproveTransactionChoice'}
                         className='amount-btns-list-2'
                         buttonStyle='secondary--btn'
                         buttonSize='stylished-medium-btn'>
@@ -40,7 +40,7 @@ function WithcardSelectAmount() {
             {/*column 2*/}
             <div className = 'select-amount-btns-2'>
                 <div className = 'amount-btns-list-1'>
-                    {button && <Button onClick = {() => window.location.href = '/ProceedConfirmation'}
+                    {button && <Button onClick = {() => window.location = '/ApproveTransactionChoice'}
                         className='amount-btns-list-1'
                         buttonStyle='secondary--btn'
                         buttonSize='stylished-medium-btn'>
@@ -48,7 +48,7 @@ function WithcardSelectAmount() {
                     </Button>}
                 </div>
                 <div className = 'amount-btns-list-2'>
-                    {button &&<Button onClick = {() => window.location.href = '/ProceedConfirmation'}
+                    {button &&<Button onClick = {() => window.location = '/ApproveTransactionChoice'}
                         className='amount-btns-list-3'
                         buttonStyle='secondary--btn'
                         buttonSize='stylished-medium-btn'>
@@ -59,7 +59,7 @@ function WithcardSelectAmount() {
             {/*column 3*/}
             <div className = 'select-amount-btns-3'>
                 <div className = 'amount-btns-list-1'>
-                    {button &&<Button onClick = {() => window.location.href = '/ProceedConfirmation'}
+                    {button &&<Button onClick = {() => window.location = '/ApproveTransactionChoice'}
                         className='amount-btns-list-1'
                         buttonStyle='secondary--btn'
                         buttonSize='stylished-medium-btn'>
@@ -67,7 +67,7 @@ function WithcardSelectAmount() {
                     </Button>}
                 </div>
                 <div className = 'amount-btns-list-2'>
-                    {button && <Button onClick = {() => window.location.href = '/ProceedConfirmation'}
+                    {button && <Button onClick = {() => window.location = '/ApproveTransactionChoice'}
                         className='amount-btns-list-2'
                         buttonStyle='secondary--btn'
                         buttonSize='stylished-medium-btn'>

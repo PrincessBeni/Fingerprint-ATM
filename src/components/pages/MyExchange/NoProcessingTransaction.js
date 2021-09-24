@@ -8,7 +8,7 @@ function NoProcessingTransaction() {
  setTimeout(
     function() {
         window.location.replace('/NoTransactionSuccessful');
-    }, 4000
+    }, 2000
 );
 
     return (

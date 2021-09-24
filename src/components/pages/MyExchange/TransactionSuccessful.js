@@ -8,7 +8,7 @@ function TransactionSuccessful() {
  setTimeout(
     function() {
         window.location.replace('/TakeReceipt');
-    }, 4000
+    }, 3000
 );
 
     return (

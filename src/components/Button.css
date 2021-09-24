@@ -17,6 +17,13 @@
   box-shadow: inset 1px 1px 2px 2px rgb(216, 216, 216);
 }
 
+.primary-btn-with-black-border {
+  background-color: #ffa826;
+  color: black;
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset 2px 2px 7px -4px black;
+}
+
 .secondary--btn {
   background-color: #fcb441;
   color: black;

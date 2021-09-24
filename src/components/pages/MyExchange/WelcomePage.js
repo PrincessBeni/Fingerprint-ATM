@@ -46,6 +46,15 @@ function WelcomePage() {
                     </Button>}
                 </div>
             </div>
+             {/*column 3*/}
+             <div className = 'welcome-page-btns-3'>
+                {button && <Button onClick = {() => window.location.href = '/Withorwithoutcard'}
+                    className='welcome-page-btns-3'
+                    buttonStyle='secondary-btn-with-black-border'
+                    buttonSize='medium--btn'>
+                    CANCEL
+                </Button>}
+            </div>
         </div>
     )
 }

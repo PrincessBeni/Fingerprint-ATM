@@ -7,7 +7,7 @@ function ProcessingTransaction() {
  setTimeout(
     function() {
         window.location.replace('/TransactionSuccessful');
-    }, 3000
+    }, 2000
 );
 
     return (

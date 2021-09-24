@@ -15,47 +15,62 @@
   overflow: hidden;
 }
 
-.proceed-conversion-container > h1 {
-  margin-bottom: 50px;
-}
-
 .note-and-equivalence {
   justify-content: space-between;
   display: flex;
-  /* margin-bottom: 50px; */
-  font-size: 25px;
+  font-size: 30px;
+  margin-left: 300px;
+  margin-bottom: 10px;
+  margin-top: 60px;
 }
 
 .proceed-conversion-note {
   color: rgb(255, 0, 0);
-  margin-left: 520px;
 }
 
 .proceed-conversion-equivalence {
-  margin-right: 790px;
+  margin-right: 950px;
 }
+
 .proceed-conversion-column-1 {
   justify-content: space-between;
   display: flex;
-  margin: 60px 520px;
+  margin: 60px 670px;
+  margin-left: 300px;
+  margin-bottom: 70px;
 }
 
 .proceed-conversion-btn-1 .btn {
   display: inline-block;
-  font-size: 15px;
+  font-size: 17px;
 }
 .proceed-conversion-text {
   /* display: inline-block; */
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 12px;
 }
 
 .proceed-conversion-column-2 {
   justify-content: space-between;
   display: flex;
-  margin: 0px 520px;
+  margin: -10px 670px;
+  margin-left: 300px;
 }
 
 .proceed-conversion-proceed-btn {
-  margin: 50px 70px -100px;
+  margin: 90px 70px 10px;
+}
+
+.proceed-conversion-cancel-pic-and-text > h1 {
+  font-size: 40px;
+  margin-left: 40px;
+  margin-top: 22px;
+}
+
+.proceed-conversion-money-cancel-pic {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 1030px;
 }

@@ -6,7 +6,14 @@ import button from "../Withorwithoutcard"
 function ProceedConversion() {
     return (
         <div className = "proceed-conversion-container">
+         <div className = 'proceed-conversion-cancel-pic-and-text'>
+            <img src='cancel button.png'
+                    onClick = {() => window.location = '/InsertMoney'}
+                    alt='Cancel selection. Go back to previous page'
+                    className='proceed-conversion-money-cancel-pic'
+                />
             <h1>Please proceed if the amount you inserted matches</h1>
+            </div>
            <div className = "note-and-equivalence">
                 <p className = "proceed-conversion-note">Note:</p>
                 <p className = "proceed-conversion-equivalence">$1 = Ghs 5.98</p>

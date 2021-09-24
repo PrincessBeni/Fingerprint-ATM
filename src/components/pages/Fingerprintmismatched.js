@@ -7,13 +7,11 @@ function Fingerprintmismatched() {
             <div className='finger-print-request'>
                     <h3>Fingerprint Mismatched!<Link to = '/FingerprintRequest' className = 'try-again'> Please try again!</Link></h3>
                     <div className = 'hero-images'>
-                    <Link to = '/Loading'>
                         <img src='cancel button.png' 
                         alt='finger print mismatched' 
                         width="200" 
                         height="200" 
                         className='loading-pic'/>
-                    </Link>
                     </div>
                     <div className = 'tips'>
                     <h4>Tips</h4>
