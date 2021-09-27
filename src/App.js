@@ -38,6 +38,8 @@ import TransactionSuccessful from './components/pages/MyExchange/TransactionSucc
 import TakeReceipt from './components/pages/MyExchange/TakeReceipt';
 import NoProcessingTransaction from './components/pages/MyExchange/NoProcessingTransaction';
 import NoTransactionSuccessful from './components/pages/MyExchange/NoTransactionSuccessful';
+import Proceedpage from './components/pages/MiniStatement/Proceedpage';
+import AccountSummary from './components/pages/MiniStatement/AccountSummary';
 
 
 function App () {
@@ -82,6 +84,8 @@ function App () {
           <Route path = '/TakeReceipt' exact component = {TakeReceipt}/>
           <Route path = '/NoProcessingTransaction' exact component = {NoProcessingTransaction}/>
           <Route path = '/NoTransactionSuccessful' exact component = {NoTransactionSuccessful}/>
+          <Route path = '/Proceedpage' exact component = {Proceedpage}/>
+          <Route path = '/AccountSummary' exact component = {AccountSummary}/>
         </Switch>
       </Router>
     </>

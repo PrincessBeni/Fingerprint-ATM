@@ -15,7 +15,6 @@ function RequestProcessing() {
             <h1>Processing cash withdrawal. Kindly wait patiently.</h1>
             <div className = 'request-processing-image'>
                             <img src='loading.gif'
-                            onClick = {() => window.location = '/Fingerprintmatched'} 
                             alt='girl.jpg' 
                             width="200" 
                             height="200" 

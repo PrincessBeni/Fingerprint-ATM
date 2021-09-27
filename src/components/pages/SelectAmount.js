@@ -6,16 +6,6 @@ import button from './Withorwithoutcard'
 
  function SelectAmount() {
 
-    // const [selectedNumber, setSelectedNumber] = useState(0);
-
-    // const selectNumber = numberSelected => {
-    //     setSelectedNumber (numberSelected) 
-          
-    // }
-    
-    const handleInput = e => {
-        const buttonValue = e.get.target.value;
-    }
  
     return (
         <div className='select-amount-container' id = 'in'>
@@ -35,7 +25,7 @@ import button from './Withorwithoutcard'
             <div className = 'select-amount-btns-1' >
                 <div className = 'amount-btns-list-1' >
                     {button && <Button 
-                        onClick = {(e)=>this.handleInput(e)}
+                        onClick = {(e)=>window.location.href = '/ProceedConfirmation'}
                         value = "50"
                         className='amount-btns-list-1'
                         buttonStyle='secondary--btn'

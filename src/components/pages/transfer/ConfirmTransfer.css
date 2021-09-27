@@ -1,0 +1,40 @@
+.confirm-transfer-container {
+  background: url("../../../images/requested.jpg") center center/cover no-repeat;
+  /*height: 145vh;*/
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: center;*/
+  position: fixed;
+  overflow: hidden;
+}
+
+.confirm-transfer-container > h2 {
+  font-size: 45px;
+  color: rgb(29, 29, 29);
+}
+
+.transfer-confirmation {
+  margin-top: -130px;
+}
+.acc-no {
+  margin-top: 20px;
+}
+.acc-name {
+  margin-top: 20px;
+}
+.confirm-transfer-container > h3 {
+  font-size: 35px;
+  margin-top: 80px;
+  color: red;
+  margin-left: -480px;
+}
+
+.confirm-transfer-container-btn {
+  margin-top: 30px;
+}

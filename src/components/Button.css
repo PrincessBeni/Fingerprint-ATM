@@ -58,6 +58,7 @@
   border-radius: 12px;
   width: 270px;
   height: 70px;
+  box-shadow: inset 2px 2px 7px -4px black;
 }
 
 .small-btn-with-shadow {

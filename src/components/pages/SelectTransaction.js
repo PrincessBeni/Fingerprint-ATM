@@ -41,7 +41,7 @@ function SelectTransaction() {
                     </Button>}
                 </div>
                 <div className = 'transaction-btns-list-2'>
-                    {button && <Button onClick = {() => window.location.href = '/'}
+                    {button && <Button onClick = {() => window.location.href = '/Proceedpage'}
                         className='transaction-btns-list-2'
                         buttonStyle='secondary--btn'
                         buttonSize='stylished-large-btn'>
