@@ -1,6 +1,6 @@
 import React from 'react'
-import {Button} from '../Button'
-import button from './Withorwithoutcard'
+import {Button} from '../../Button'
+import button from '../Withorwithoutcard'
 import './WithCardEnterConfirmationCode.css'
 
 function WithCardEnterConfirmationCode() {

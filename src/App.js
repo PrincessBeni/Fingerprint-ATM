@@ -16,13 +16,13 @@ import RequestProcessing from './components/pages/RequestProcessing';
 import TransactionCompleted from './components/pages/TransactionCompleted';
 import InsertCard from './components/pages/InsertCard';
 import EnterPin from './components/pages/EnterPin';
-import WithcardSelectAmount from './components/pages/WithcardSelectAmount';
+import WithcardSelectAmount from './components/pages/WithCard/WithcardSelectAmount';
 import ApproveTransactionChoice from './components/pages/ApproveTransactionChoice';
-import WithCardSelectTransaction from './components/pages/WithCardSelectTransaction';
-import WithCardFingerprintRequest from './components/pages/WithCardFingerprintRequest';
-import WithCardLoading from './components/pages/WithCardLoading';
-import WithCardFingerprintMatched from './components/pages/WithCardFingerprintMatched';
-import WithCardEnterConfirmationCode from './components/pages/WithCardEnterConfirmationCode';
+import WithCardSelectTransaction from './components/pages/WithCard/WithCardSelectTransaction';
+import WithCardFingerprintRequest from './components/pages/WithCard/WithCardFingerprintRequest';
+import WithCardLoading from './components/pages/WithCard/WithCardLoading';
+import WithCardFingerprintMatched from './components/pages/WithCard/WithCardFingerprintMatched';
+import WithCardEnterConfirmationCode from './components/pages/WithCard/WithCardEnterConfirmationCode';
 import CodeConfirmed from './components/pages/CodeConfirmed';
 import AccountBalance from './components/pages/balanceEquiry/AccountBalance';
 import YesOrNo from './components/pages/balanceEquiry/YesOrNo';
@@ -40,6 +40,7 @@ import NoProcessingTransaction from './components/pages/MyExchange/NoProcessingT
 import NoTransactionSuccessful from './components/pages/MyExchange/NoTransactionSuccessful';
 import Proceedpage from './components/pages/MiniStatement/Proceedpage';
 import AccountSummary from './components/pages/MiniStatement/AccountSummary';
+import WithCardEnterAmount from './components/pages/WithCard/WithCardEnterAmount';
 
 
 function App () {
@@ -86,6 +87,7 @@ function App () {
           <Route path = '/NoTransactionSuccessful' exact component = {NoTransactionSuccessful}/>
           <Route path = '/Proceedpage' exact component = {Proceedpage}/>
           <Route path = '/AccountSummary' exact component = {AccountSummary}/>
+          <Route path = '/WithCardEnterAmount' exact component = {WithCardEnterAmount}/>
         </Switch>
       </Router>
     </>

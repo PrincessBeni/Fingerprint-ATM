@@ -1,6 +1,6 @@
 import React from 'react'
-import {Button} from '../Button';
-import button from './Withorwithoutcard'
+import {Button} from '../../Button';
+import button from '../Withorwithoutcard'
 
 function WithcardSelectAmount() {
     return (
@@ -78,7 +78,7 @@ function WithcardSelectAmount() {
 
             {/*column 4*/}
             <div className = 'select-amount-btns-4'>
-                {button &&<Button onClick = {() => window.location.href = '/EnterAmount'}
+                {button &&<Button onClick = {() => window.location.href = '/WithCardEnterAmount'}
                     className='amount-btns-list-1'
                     buttonStyle='primary--btn'
                     buttonSize='large--btn'>

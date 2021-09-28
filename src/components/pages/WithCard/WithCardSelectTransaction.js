@@ -1,7 +1,7 @@
 import React from 'react'
-import './SelectTransaction.css';
-import {Button} from '../Button'
-import button from './Withorwithoutcard'
+import '../SelectTransaction.css';
+import {Button} from '../../Button'
+import button from '../Withorwithoutcard'
 
 function WithCardSelectTransaction() {
     return (
@@ -20,7 +20,7 @@ function WithCardSelectTransaction() {
                 </Button>}
             </div>
             <div className = 'transaction-btns-list-2'>
-                {button && <Button onClick = {() => window.location.href = '/'}
+                {button && <Button onClick = {() => window.location.href = '/Transfer'}
                     className='transaction-btns-list-2'
                     buttonStyle='secondary--btn'
                     buttonSize='stylished-large-btn'>
@@ -31,7 +31,7 @@ function WithCardSelectTransaction() {
         {/*column 2*/}
         <div className = 'select-transaction-btns-2'>
             <div className = 'transaction-btns-list-1'>
-                {button && <Button onClick = {() => window.location.href = '/'}
+                {button && <Button onClick = {() => window.location.href = '/AccountBalance'}
                     className='transaction-btns-list-1'
                     buttonStyle='secondary--btn'
                     buttonSize='stylished-large-btn'>
@@ -39,7 +39,7 @@ function WithCardSelectTransaction() {
                 </Button>}
             </div>
             <div className = 'transaction-btns-list-2'>
-                {button && <Button onClick = {() => window.location.href = '/'}
+                {button && <Button onClick = {() => window.location.href = '/Proceedpage'}
                     className='transaction-btns-list-2'
                     buttonStyle='secondary--btn'
                     buttonSize='stylished-large-btn'>
